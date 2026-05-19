@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+cyrimport { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence, useInView, useMotionValue, useTransform, animate } from "framer-motion";
 import { 
   Globe, 
@@ -109,7 +109,8 @@ export default function Home() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          access_key: "1234abcd-56ef-78gh",
+          access_key: "d6eeb219-ded3-4903-b904-157fd7379e76",
+
 
           subject: `New Pharma Inquiry from ${formData.name} — ${formData.company}`,
           from_name: "AL MURTAZA PHARMA Website",
