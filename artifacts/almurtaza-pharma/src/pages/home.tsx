@@ -109,7 +109,8 @@ export default function Home() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          access_key: import.meta.env.VITE_CONTACT_KEY || "",
+          access_key: "1234abcd-56ef-78gh",
+
           subject: `New Pharma Inquiry from ${formData.name} — ${formData.company}`,
           from_name: "AL MURTAZA PHARMA Website",
           ...formData,
