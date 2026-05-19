@@ -1,4 +1,4 @@
-cyrimport { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence, useInView, useMotionValue, useTransform, animate } from "framer-motion";
 import { 
   Globe, 
